@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Welcome</h1>
+
+<p>Hello! 👋  Welcome to my <a href="https://www.reddit.com/r/DigitalGardens/">digital garden</a> 🌱</p>
+
+<p>Feel free to explore and look around 🔦 Here are a few good places to start:</p>
+
+<ul>
+  <li><a href="/simplicity.html">Simplicity</a></li>
+  <li><a href="/infinity.html">Infinity</a></li>
+  <li><a href="/meaning.html">Meaning</a></li>
+</ul>
+
+<h2>word count</h2>
+
+<p>Current word count: {{ word_count }} / <a href="https://web.archive.org/web/20230429234041/https://capitalizemytitle.com/page-count/35000-words/">35000</a> </p>
+
+{% endblock %}
+
+{% block footer %}
+
+Generated using a <a href="https://github.com/neduard/mkdg">few lines</a> of <a href="https://survey.stackoverflow.co/2022/#most-loved-dreaded-and-wanted-language-love-dread">rust</a> 🦀<br/>
+
+{% endblock %}
